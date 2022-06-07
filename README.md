@@ -1,5 +1,5 @@
 # AnimeRegressionScoring
-Trying to predict an Anime's MyAnimeList score (rating) via regression models. Score being a primary way of interpretting popularity/success for an anime in any given season.
+Trying to predict an Anime's MyAnimeList score (rating) via regression models. Score being a primary way of interpreting popularity/success for an anime in any given season.
 
 <sub>Final group project for Intro to Data Mining</sub>
 
@@ -10,7 +10,7 @@ Run it on [Colab](https://colab.research.google.com/github/Cristian-Solis/AnimeR
 1. [Kaggle](https://www.kaggle.com/datasets/hernan4444/anime-recommendation-database-2020)
 2. [MyAnimeList Spring 2022 Seasonal Anime](https://myanimelist.net/anime/season)
 ## My Contribution
-  1. Cleaned [`anime_2022_2.csv`](https://github.com/Cristian-Solis/AnimeRegressionScoring/blob/main/anime_2022_2.csv) `Genre` and `Studio` features to match [`anime.csv`'s](https://github.com/Cristian-Solis/AnimeRegressionScoring/blob/main/anime.csv) formatting.
+  1. Cleaned [`anime_2022_2.csv`](https://github.com/Cristian-Solis/AnimeRegressionScoring/blob/main/anime_2022_2.csv) `Genre` and `Studio` features to match [`anime.csv`](https://github.com/Cristian-Solis/AnimeRegressionScoring/blob/main/anime.csv) formatting.
   2. Binarized `Genre`
   3. Combined [`anime_2022_2.csv`](https://github.com/Cristian-Solis/AnimeRegressionScoring/blob/main/anime_2022_2.csv) and [`anime.csv`](https://github.com/Cristian-Solis/AnimeRegressionScoring/blob/main/anime.csv) to combine older and newer anime. 
   4. Created `Genre` and `Type Of Media` visualizations to showcase each feature's unique values.
